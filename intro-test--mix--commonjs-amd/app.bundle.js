@@ -45,7 +45,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	cats = __webpack_require__(1);
+	dogs = __webpack_require__(2);
+
 	console.log(cats);
+	console.log(dogs);
 
 
 /***/ },
@@ -55,6 +58,14 @@
 	var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = function(){
 	  return ['dave', 'henry', 'martha'];
 	}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	var cats = ['sarah', 'ashley', 'phil']
+	module.exports = cats;
 
 
 /***/ }
