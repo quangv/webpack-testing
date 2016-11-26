@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./entry.js bundle.js --module-bind 'css=style!css'",
     "build-pretty": "webpack --progress --colors",
-    "watch": "webpack --progress --colors --watch"
+    "watch": "webpack --progress --colors --watch",
+    "dev": "webpack-dev-server --host 0.0.0.0 --progress --colors"
   },
   "author": "",
   "license": "ISC",

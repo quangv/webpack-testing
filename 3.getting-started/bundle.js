@@ -402,7 +402,7 @@
 /* 5 */
 /***/ function(module, exports) {
 
-	module.exports = "It works from content.js.";
+	module.exports = "It works from content.js. Sweet.";
 
 
 /***/ }
