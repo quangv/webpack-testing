@@ -42,9 +42,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var content = __webpack_require__(1);
+	document.write(content);
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write('It works.');
+	module.exports = "It works from content.js.";
 
 
 /***/ }
