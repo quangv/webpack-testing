@@ -5,5 +5,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'www'),
     filename: "bundle.js"
+  },
+  devServer: {
+    host: '0.0.0.0'
   }
 };
