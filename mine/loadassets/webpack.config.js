@@ -7,6 +7,14 @@ module.exports = {
     filename: "bundle.js",
     publicPath: '/assets/'
   },
+  module: {
+    loaders: [
+      {
+        test: /\.scss$/,
+        loaders: ["style-loader", "css-loader", "sass-loader"]
+      }
+    ]
+  },
   devServer: {
     host: '0.0.0.0',
     contentBase: path.join(__dirname)
