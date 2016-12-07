@@ -1,2 +1,2 @@
 require('./style.scss');
-alert('init');
+console.log('init');
