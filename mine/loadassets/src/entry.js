@@ -10,3 +10,6 @@ const appEl = document.getElementById('app');
 console.log(app);
 
 appEl.innerHTML = app;
+
+const cat = require('./public/images/cat1.jpeg');
+console.log(cat);

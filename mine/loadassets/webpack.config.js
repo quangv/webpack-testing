@@ -16,6 +16,10 @@ module.exports = {
       {
         test: /\.html$/,
         loaders: ["html-loader"]
+      },
+      {
+        test: /\.jpeg$/,
+        loaders: ["file-loader"]
       }
     ]
   },
